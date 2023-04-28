@@ -46,6 +46,7 @@
 		"eslint-plugin-svelte3": "^4.0.0",
 		"fetch-retry": "^5.0.4",
 		"husky": "^8.0.3",
+		"isomorphic-fetch": "^3.0.0",
 		"moment-timezone": "^0.5.43",
 		"postcss": "^8.4.23",
 		"prettier": "^2.8.0",

@@ -21,7 +21,7 @@
 
 			<div>links</div>
 		</div>
-		<div class="mt-4 border-t border-surface-500/50">
+		<div class="mt-4 !border-t-2 border-surface-500/50">
 			<div class="pt-8">
 				<p class="text-center">
 					&copy; {dayjs().format('YYYY')} THAT&reg; All rights reserved.<br />
