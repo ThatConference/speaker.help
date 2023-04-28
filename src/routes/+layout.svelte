@@ -8,6 +8,7 @@
 	import { navigating } from '$app/stores';
 	import Preloading from '$components/Preloading.svelte';
 	import Footer from '$components/Footer.svelte';
+	import TopNav from '$components/TopNav.svelte';
 
 	//todo: do we need to worry about how to load???
 </script>
@@ -18,9 +19,7 @@
 
 <AppShell>
 	<svelte:fragment slot="header">
-		<AppBar>
-			<img src="/images/speaker-help-logo.svg" alt="Website Logo" />
-		</AppBar>
+		<TopNav />
 	</svelte:fragment>
 
 	<!-- Router Slot -->

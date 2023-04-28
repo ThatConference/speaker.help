@@ -11,7 +11,9 @@ const config = {
 	kit: {
 		adapter: adapter(),
 		alias: {
-			$components: resolve('./src/components')
+			$components: resolve('./src/components'),
+			$dataSources: resolve('./src/dataSources'),
+			$thatApi: resolve('./src/dataSources/api.that.tech')
 		},
 		version: {
 			name: process.env?.npm_package_version || '0.0.0'
