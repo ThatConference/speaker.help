@@ -1,4 +1,5 @@
 {
+	"cSpell.language": "en",
 	"editor.rulers": [80],
 	"editor.formatOnSave": true,
 	"prettier.tabWidth": 2,
@@ -11,8 +12,8 @@
 	"workbench.colorCustomizations": {
 		"titleBar.activeForeground": "#000",
 		"titleBar.inactiveForeground": "#000000CC",
-		"titleBar.activeBackground": "#4D51F7",
-		"titleBar.inactiveBackground": "#4D51F7"
+		"titleBar.activeBackground": "#0FBA81",
+		"titleBar.inactiveBackground": "#0FBA81"
 	},
 	"[svelte]": {
 		"editor.defaultFormatter": "svelte.svelte-vscode"

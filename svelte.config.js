@@ -9,12 +9,12 @@ const config = {
 	preprocess: vitePreprocess(),
 
 	kit: {
-		// adapter-auto only supports some environments, see https://kit.svelte.dev/docs/adapter-auto for a list.
-		// If your environment is not supported or you settled on a specific environment, switch out the adapter.
-		// See https://kit.svelte.dev/docs/adapters for more information about adapters.
 		adapter: adapter(),
 		alias: {
 			$components: resolve('./src/components')
+		},
+		version: {
+			name: process.env?.npm_package_version || '0.0.0'
 		}
 	}
 };

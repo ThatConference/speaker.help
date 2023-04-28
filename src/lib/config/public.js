@@ -26,7 +26,7 @@ const defaultConfig = {
 export const logging = {
 	sentryDsn:
 		env.PUBLIC_SENTRY_DSN ||
-		'https://15d4b436dc0a4366a0ac388c65772926@o235190.ingest.sentry.io/5357492'
+		'https://d847beaf785347aab54f67ceb47eea92@o235190.ingest.sentry.io/4505089498873856'
 };
 
 export const sentryConfig = {

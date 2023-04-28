@@ -10,7 +10,7 @@ const config = ({ mode }) => {
 		url: 'https://sentry.io',
 		authToken: process.env.SENTRY_SRC_MAP_UPLOAD,
 		org: 'that-conference',
-		project: 'speaker.help',
+		project: 'speaker-help',
 		release: pkg.version,
 		deploy: {
 			env: 'production'

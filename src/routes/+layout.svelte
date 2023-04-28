@@ -7,6 +7,7 @@
 
 	import { navigating } from '$app/stores';
 	import Preloading from '$components/Preloading.svelte';
+	import Footer from '$components/Footer.svelte';
 
 	//todo: do we need to worry about how to load???
 </script>
@@ -17,15 +18,19 @@
 
 <AppShell>
 	<svelte:fragment slot="header">
-		<AppBar>Skeleton</AppBar>
+		<AppBar>
+			<img src="/images/speaker-help-logo.svg" alt="Website Logo" />
+		</AppBar>
 	</svelte:fragment>
-
-	<svelte:fragment slot="pageHeader">Page Header</svelte:fragment>
 
 	<!-- Router Slot -->
 	<main>
 		<slot />
 	</main>
 
-	<svelte:fragment slot="pageFooter">Page Footer</svelte:fragment>
+	<svelte:fragment slot="pageFooter">
+		<footer class="mt-8">
+			<Footer />
+		</footer>
+	</svelte:fragment>
 </AppShell>
