@@ -33,3 +33,6 @@
 		</footer>
 	</svelte:fragment>
 </AppShell>
+
+<style lang="postcss">
+</style>
